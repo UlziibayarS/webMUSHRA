@@ -10,7 +10,7 @@ pages:
     - type: generic
       id: first_page
       name: Welcome
-      content: Welcome to our blind test!       
+      content: Үнэлгээнд оролцож байгаад баярлалаа!       
     - type: mushra
       id: trial1
       name: MUSHRA
