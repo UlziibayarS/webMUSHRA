@@ -1,4 +1,4 @@
-testname: Intelligable
+testname: Intelligable 90
 testId: default_example
 bufferSize: 2048
 stopOnErrors: true
@@ -17,7 +17,7 @@ pages:
       content: Энэ хэсэгт та бүхэн эдгээр аудиог хүний дуу хоолойнд хэр ижилхэн байгааг үнэлэх болно. Reminder: In a MUSHRA listening test you are asked to rate the Basic Audio Quality (BAQ) of each condition.<br/>Basic Audio Quality is a single and global attribute that is used to judge any and all detected differences between the reference and the condition.
       showWaveform: true
       enableLooping: true 
-      reference: configs/resources/audio/mono_ref.wav
+      reference: configs/resources/audio/mono_c1.wav
       createAnchor35: true
       createAnchor70: true
       stimuli:
@@ -31,7 +31,7 @@ pages:
             name: MUSHRA Тест - Random 2
             content: Due to randomization, this page will be either the second MUSHRA page or the third MUSHRA page.
             enableLooping: true 
-            reference: configs/resources/audio/mono_ref.wav
+            reference: configs/resources/audio/mono_c1.wav
             createAnchor35: false
             createAnchor70: false
             stimuli:
