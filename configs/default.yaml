@@ -31,13 +31,13 @@ pages:
             name: MUSHRA Тест - Random 2
             content: Due to randomization, this page will be either the second MUSHRA page or the third MUSHRA page.
             enableLooping: true 
-            reference: tests/1-Ref.wav
+            reference: configs/resources/audio/mono_ref.wav
             createAnchor35: false
             createAnchor70: false
             stimuli:
-              C1: tests/1-A.wav
-              C2: tests/1-B.wav
-              C3: tests/1-C.wav         
+              C1: configs/resources/audio/mono_c1.wav
+              C2: configs/resources/audio/mono_c2.wav
+              C3: configs/resources/audio/mono_c3.wav      
           - type: mushra
             id: trial_random_2
             name: MUSHRA - Random 1
