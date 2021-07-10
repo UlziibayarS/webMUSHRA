@@ -31,7 +31,7 @@ pages:
             name: MUSHRA Тест - Random 2
             content: Due to randomization, this page will be either the second MUSHRA page or the third MUSHRA page.
             enableLooping: true 
-            reference: configs/resources/audio/mono_ref.wav
+            reference: tests/1-Ref.wav
             createAnchor35: false
             createAnchor70: false
             stimuli:
@@ -43,7 +43,7 @@ pages:
             name: MUSHRA - Random 1
             content: Due to randomization, this page will be either the second MUSHRA page or the third MUSHRA page.
             enableLooping: true 
-            reference: configs/resources/audio/mono_ref.wav
+            reference: tests/1-Ref.wav
             createAnchor35: false
             createAnchor70: false
             stimuli:
