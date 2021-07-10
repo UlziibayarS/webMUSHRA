@@ -17,13 +17,13 @@ pages:
       content: Энэ хэсэгт та бүхэн эдгээр аудиог хүний дуу хоолойнд хэр ижилхэн байгааг үнэлэх болно. Reminder: In a MUSHRA listening test you are asked to rate the Basic Audio Quality (BAQ) of each condition.<br/>Basic Audio Quality is a single and global attribute that is used to judge any and all detected differences between the reference and the condition.
       showWaveform: true
       enableLooping: true 
-      reference: configs/resources/audio/mono_ref.wav
+      reference: tests/1-Ref.wav
       createAnchor35: true
       createAnchor70: true
       stimuli:
-          C1: configs/resources/audio/mono_c1.wav
-          C2: configs/resources/audio/mono_c2.wav
-          C3: configs/resources/audio/mono_c3.wav
+          C1: tests/1-A.wav
+          C2: tests/1-B.wav
+          C3: tests/1-C.wav
     - 
           - random
           - type: mushra
@@ -35,9 +35,9 @@ pages:
             createAnchor35: false
             createAnchor70: false
             stimuli:
-                C1: configs/resources/audio/mono_c1.wav
-                C2: configs/resources/audio/mono_c2.wav
-                C3: configs/resources/audio/mono_c3.wav          
+              C1: tests/1-A.wav
+              C2: tests/1-B.wav
+              C3: tests/1-C.wav         
           - type: mushra
             id: trial_random_2
             name: MUSHRA - Random 1
@@ -47,9 +47,9 @@ pages:
             createAnchor35: false
             createAnchor70: false
             stimuli:
-                C1: configs/resources/audio/mono_c1.wav
-                C2: configs/resources/audio/mono_c2.wav
-                C3: configs/resources/audio/mono_c3.wav          
+              C1: tests/1-A.wav
+              C2: tests/1-B.wav
+              C3: tests/1-C.wav          
     - type: finish
       name: Thank you
       content: Судалгаанд оролцсонд баярлалаа!
