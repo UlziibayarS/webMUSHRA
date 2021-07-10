@@ -1,4 +1,4 @@
-testname: webMUSHRA Example
+testname: Intelligable
 testId: default_example
 bufferSize: 2048
 stopOnErrors: true
@@ -10,11 +10,11 @@ pages:
     - type: generic
       id: first_page
       name: Welcome
-      content: Welcome to webMUSHRA!       
+      content: Welcome to our blind test!       
     - type: mushra
       id: trial1
       name: MUSHRA
-      content: This training shows how to use our user interface. Please perform the underlined instructions to proceed with the training session. Reminder: In a MUSHRA listening test you are asked to rate the Basic Audio Quality (BAQ) of each condition.<br/>Basic Audio Quality is a single and global attribute that is used to judge any and all detected differences between the reference and the condition.
+      content: Энэ хэсэгт та бүхэн эдгээр аудиог хүний дуу хоолойнд хэр ижилхэн байгааг үнэлэх болно. Reminder: In a MUSHRA listening test you are asked to rate the Basic Audio Quality (BAQ) of each condition.<br/>Basic Audio Quality is a single and global attribute that is used to judge any and all detected differences between the reference and the condition.
       showWaveform: true
       enableLooping: true 
       reference: configs/resources/audio/mono_ref.wav
@@ -28,7 +28,7 @@ pages:
           - random
           - type: mushra
             id: trial_random_1
-            name: MUSHRA - Random 2
+            name: MUSHRA Тест - Random 2
             content: Due to randomization, this page will be either the second MUSHRA page or the third MUSHRA page.
             enableLooping: true 
             reference: configs/resources/audio/mono_ref.wav
@@ -52,7 +52,7 @@ pages:
                 C3: configs/resources/audio/mono_c3.wav          
     - type: finish
       name: Thank you
-      content: Thank you for attending!
+      content: Судалгаанд оролцсонд баярлалаа!
       showResults: true
       writeResults: true
       questionnaire:
